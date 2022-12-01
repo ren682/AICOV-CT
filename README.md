@@ -84,3 +84,5 @@ To train AICOV-CT, the dataset should be structured as below:
                 `-- Normal
 
 ```
+## Training Validation and Testing
+
