@@ -5,8 +5,8 @@ Using deep learning framework to detect COVID-19 and distinguish it from communi
 ![image](https://github.com/ren682/AICOV-CT/blob/main/img/Model.png)
 ## Dataset
 Since the potential contrast in the background of the original collected image may cause deviations in the model, we used an automatic cropping algorithm to delete the background to standardize the field into a body area.The model was first trained and tested on 128,700 images that were cropped but not enhanced.The data distribution is as follows:
-* [training images](https://www.kaggle.com/datasets/ironman3537/train-no-enhanced);
-* [validation images](https://www.kaggle.com/datasets/ironman3537/val-no-enhanced);
+* [training images](https://www.kaggle.com/datasets/ironman3537/train-no-enhanced)
+* [validation images](https://www.kaggle.com/datasets/ironman3537/val-no-enhanced)
 * [test images](https://www.kaggle.com/datasets/ironman3537/test-no-enhanced)
 
 DCT, White Balance and Contrast Limited Adaptive Histo-gram Equalization (CLAHE) algorithms are used to reduce the noise data of the image and add more helpful information.The model is trained and tested for the second time using the images after the data enhancement algorithm. The enhanced images can be downloaded here:
