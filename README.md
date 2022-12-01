@@ -86,3 +86,6 @@ To train AICOV-CT, the dataset should be structured as below:
 ```
 ## Training Validation and Testing
 All of our training, validation, and testing code was written in notebook and integrated together, so the ResNet50V2.ipynb, MobileNetV2.ipynb, and DenseNet201.ipynb files need to be re-executed.
+
+## Grad-CAM Visualization
+![image](https://github.com/ren682/AICOV-CT/blob/main/Grad-CAM_img/positive(Grad-CAM).png)
