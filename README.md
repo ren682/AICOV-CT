@@ -16,13 +16,9 @@ DCT, White Balance and Contrast Limited Adaptive Histo-gram Equalization (CLAHE)
 * [training images enhancement](https://www.kaggle.com/datasets/ironman3537/train-images-enhanced)
 * [validate and test image enhancement](https://www.kaggle.com/datasets/ironman3537/val-test-images)
 
-### Comparison of model effects before and after using image enhancement
-* COVID-19
+### Comparison of the effectiveness of the model for diagnosing COVID-19 before and after using image enhancement.
 
    ![image](https://github.com/ren682/AICOV-CT/blob/main/img/Comparison%20of%20COVID-19%20diagnosis%20using%20data%20enhancement%20algorithms.png)
-* CAP
-
-   ![image](https://github.com/ren682/AICOV-CT/blob/main/img/Comparison%20of%20CAP%20diagnosis%20using%20data%20enhancement%20algorithms.png)
 
 ## Setup
 
