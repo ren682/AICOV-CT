@@ -22,7 +22,20 @@ DCT, White Balance and Contrast Limited Adaptive Histo-gram Equalization (CLAHE)
 
 ## Setup
 
-### Prerequisites
+### Environment
+
+This deep learning framework was created in the specified environment including GPU NVIDIA P100 [Nvidia, Santa Clara, Calif], 8GB, RAM 16GB.
+
+The OS/drivers/software used to create this package were as follows:
+
+[GPU](https://www.kaggle.com/)
+CUDA version: 11.0
+CUDNN version: 8005
+Python version == 3.7.12
+
+Additionally, the dependencies required to run this library are listed below:
+
+### Dependencies
 
 * pandas==1.3.5
 * numpy==1.21.6
@@ -35,6 +48,7 @@ DCT, White Balance and Contrast Limited Adaptive Histo-gram Equalization (CLAHE)
 * torch==1.11.0
 * joblib==1.0.1
 ## Train AICOV-CT from Scratch
+To train AICOV-CT, the dataset should be structured as below:
 ```
 -- crop
     |-- Image Enhancement
