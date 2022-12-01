@@ -29,8 +29,11 @@ This deep learning framework was created in the specified environment including 
 The OS/drivers/software used to create this package were as follows:
 
 [GPU](https://www.kaggle.com/)
+
 CUDA version: 11.0
+
 CUDNN version: 8005
+
 Python version == 3.7.12
 
 Additionally, the dependencies required to run this library are listed below:
