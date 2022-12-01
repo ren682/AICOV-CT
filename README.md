@@ -34,3 +34,36 @@ DCT, White Balance and Contrast Limited Adaptive Histo-gram Equalization (CLAHE)
 * scipy==1.7.3
 * torch==1.11.0
 * joblib==1.0.1
+## Train AICOV-CT from Scratch
+```
+-- crop
+    |-- Image Enhancement
+    |   `-- 224
+    |       |-- Test
+    |       |   |-- CAP
+    |       |   |-- COVID-19
+    |       |   `-- Normal
+    |       |-- Train
+    |       |   |-- CAP
+    |       |   |-- COVID-19
+    |       |   `-- Normal
+    |       `-- Validation
+    |           |-- CAP
+    |           |-- COVID-19
+    |           `-- Normal
+    `-- No image enhancement
+        `-- 224
+            |-- Test
+            |   |-- CAP
+            |   |-- COVID-19
+            |   `-- Normal
+            |-- Train
+            |   |-- CAP
+            |   |-- COVID-19
+            |   `-- Normal
+            `-- Validation
+                |-- CAP
+                |-- COVID-19
+                `-- Normal
+
+```
